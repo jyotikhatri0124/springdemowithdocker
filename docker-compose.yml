@@ -1,0 +1,9 @@
+version: "3.5"
+services:
+  maven:  
+    image: 50fa6125b541
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+      - "5005:5005"
